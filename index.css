@@ -1,9 +1,5 @@
 body {
     margin: 0;
-    color:red;
-}
-.container {
-    background-color: #9dafff88;
 }
 
 #scoreboard {
@@ -13,16 +9,18 @@ body {
     width: 575px;
     height: 385px;
     margin: 20px auto;
+    border: solid #333 8px;
+    border-radius: 10px;
 }
 
 .score_section {
-    border: solid 1px white;
+    border: solid 0px white;
     text-align: center;
 }
 
 .score_section h3 {
 
-    border: solid 1px green;
+    border: solid 0px green;
     color: #EEE;
     text-align: center;
     font-family: Verdana;
